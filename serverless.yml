@@ -1,0 +1,21 @@
+service: spring-boot-serverless
+
+provider:
+  name: aws
+  runtime: java11
+  region: ap-southeast-1
+  endpointType: regional
+  stage: dev
+
+# you can add packaging information here
+package:
+  artifact: build/distributions/springBootServerless.zip
+
+functions:
+  springBootServerless:
+    handler: springBootServerless.StreamLambdaHandler::handleRequest
+    events:
+      - http:
+          path: /{any+}
+          method: any
+    timeout: 30 # optional, in seconds, default is 6
