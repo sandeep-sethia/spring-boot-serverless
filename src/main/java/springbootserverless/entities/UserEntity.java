@@ -1,4 +1,4 @@
-package springBootServerless.entities;
+package springbootserverless.entities;
 
 import lombok.*;
 

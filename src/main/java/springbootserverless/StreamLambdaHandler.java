@@ -1,4 +1,4 @@
-package springBootServerless;
+package springbootserverless;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,11 +1,11 @@
-package springBootServerless.controllers;
+package springbootserverless.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-import springBootServerless.dto.UserDto;
-import springBootServerless.entities.UserEntity;
-import springBootServerless.services.UserService;
+import springbootserverless.dto.UserDto;
+import springbootserverless.entities.UserEntity;
+import springbootserverless.services.UserService;
 
 import java.util.List;
 

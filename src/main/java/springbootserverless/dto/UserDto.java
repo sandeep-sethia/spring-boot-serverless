@@ -1,4 +1,4 @@
-package springBootServerless.dto;
+package springbootserverless.dto;
 
 import lombok.*;
 

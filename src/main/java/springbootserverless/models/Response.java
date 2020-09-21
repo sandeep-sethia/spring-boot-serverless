@@ -1,4 +1,4 @@
-package springBootServerless.models;
+package springbootserverless.models;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

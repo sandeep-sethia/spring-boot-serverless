@@ -1,7 +1,7 @@
-package springBootServerless.services;
+package springbootserverless.services;
 
 import org.springframework.stereotype.Service;
-import springBootServerless.dto.InfoDto;
+import springbootserverless.dto.InfoDto;
 
 @Service
 public class InfoService {

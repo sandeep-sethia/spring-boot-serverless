@@ -1,10 +1,10 @@
-package springBootServerless.controllers;
+package springbootserverless.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-import springBootServerless.dto.InfoDto;
-import springBootServerless.services.InfoService;
+import springbootserverless.dto.InfoDto;
+import springbootserverless.services.InfoService;
 
 @RestController
 public class InfoController {
