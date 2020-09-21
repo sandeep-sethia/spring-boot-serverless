@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication(exclude = {
-        DataSourceAutoConfiguration.class,
         SecurityAutoConfiguration.class
 })
 public class SpringBootServerlessApplication extends SpringBootServletInitializer {
