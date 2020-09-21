@@ -19,7 +19,7 @@ import java.time.Instant;
 public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int user_id;
+    private Long user_id;
     private int org_id;
     private String name;
 

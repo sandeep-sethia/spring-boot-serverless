@@ -30,4 +30,23 @@ public class UserController {
         userService.saveUser(userDto);
     }
 
+    @PatchMapping(
+            path = "/{email}"
+    )
+    public UserEntity updateUserInfo(
+            @RequestParam(value = "orgId", required = false) Integer ordId,
+            @RequestParam(value = "name", required = false) String name,
+            @PathVariable(value = "email", required = true) String email
+    ) {
+        return userService.updateUserInfo(ordId, name, email);
+    }
+
+    @DeleteMapping(
+            path = "/{email}"
+    )
+    public void deleteUser(
+            @PathVariable(value = "email", required = true) String email
+    ) {
+        userService.deleteUser(email);
+    }
 }
