@@ -18,6 +18,7 @@ public class InfoController {
      */
     @GetMapping("/info")
     public InfoDto getInfo() {
+        System.out.println("request for getting service info");
         return infoService.getInfo();
     }
 
